@@ -1,0 +1,48 @@
+html,body{    /*this is comments*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: normal;
+    background-image: url(nyc.jpg);
+}
+
+img{
+    margin: 10px;
+    border: 2px dashed pink;
+    padding: 50px;
+}
+
+#image1 img{
+    margin: 20px;
+    border: 20px dotted green;
+    padding: 10px;
+}
+
+#image2{
+    border: 4px solid blue;
+}
+
+video{
+    margin: 30px;
+    border: 5px solid violet;
+    padding: 40px
+}
+
+#processing{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+    word-spacing: 10%;
+    letter-spacing: 1em;
+    line-height: 2em;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 200px;
+    background-color: rgb(255,3,6,0,1);
+    background-image: url(nyc.jpg);
+    background-size: cover;
+}
+
+#processing a:hover{
+    color: yellow;/*websiteのリンクの上にマウスを奥と色が変わる*/
+}
